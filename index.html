@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="headerSearch">
+        <button id="exit">&times;</button>
+        <div class="searchBar">
+            <iconify-icon icon="mdi:search" width="27" height="27"></iconify-icon>
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div id="cart">
+        <section class="sectionOne">
+            <h2>Your Cart</h2>
+            <button id="exit-cart" type="button">&times;</button>
+        </section>
+        <main>
+            <h3>Items you ordered</h3>
+            <div class="productsOrdered"></div>
+            <h2>Total : </h2>
+        </main>
+        <section class="sectionTwo">
+            <a href="">VIEW CART</a>
+            <a href="">CHECK OUT</a>
+        </section>
+    </div>
+    <header class="">
+        <div class="logo">IMAGE LOGO</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#" id="features">Features</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="icons">
+            <iconify-icon icon="mdi:search" width="27" height="27" id="h_search"></iconify-icon>
+            <iconify-icon icon="mdi:cart" width="27" height="27" id="open-cart"></iconify-icon>
+            <iconify-icon icon="ri:heart-line" width="27" height="27" id="loved"></iconify-icon>
+        </div>
+    </header>
+
+    <section class="firstSection">
+        <button id="buttonLeft">
+            <iconify-icon icon="ic:baseline-arrow-left" width="35" height="35"></iconify-icon>
+        </button>
+        <div class="slide" id="firstSlide">
+            <hgroup>
+                <h2 id="caption">Men New-Season</h2>
+                <h1 id="subcaption">JACKETS & COATS</h1>
+            </hgroup>
+            <a href="#" class="shopNow">SHOP NOW</a>
+        </div>
+        <button id="buttonRight">
+            <iconify-icon icon="ic:baseline-arrow-right" width="35" height="35"></iconify-icon>
+        </button>
+    </section>
+
+    <main>
+        <section class="secondSection">
+            <div class="women">
+                <article>
+                    <h1>Women</h1>
+                    <p>Spring 2018</p>
+                </article>
+                <a href="#">SHOP NOW</a>
+                <span></span>
+            </div>
+            <div class="men">
+                <article>
+                    <h1>Men</h1>
+                    <p>Spring 2018</p>
+                </article>
+                <a href="#">SHOP NOW</a>
+                <span></span>
+            </div>
+            <div class="accessories">
+                <article>
+                    <h1>Accessories</h1>
+                    <p>New Trend</p>
+                </article>
+                <a href="#">SHOP NOW</a>
+                <span></span>
+            </div>
+        </section>
+
+        <section class="thirdSection">
+            <h1>Product overview</h1>
+
+            <article>
+                <h2>For Products, Visit the Products Page...</h2>
+                <a href="#">View Products <iconify-icon icon="gg:arrow-right" width="27" height="27"></iconify-icon></a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="content-wrapper">
+            <section id="category">
+                <h3>category</h3>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Shoes</a>
+                <a href="#">Watches</a>
+            </section>
+            <section id="help">
+                <h3>help</h3>
+                <a href="#">Track Order</a>
+                <a href="#">Returns</a>
+                <a href="#">Shipping</a>
+                <a href="#">FAQs</a>
+            </section>
+            <section id="get_in_touch">
+                <h3>get in touch</h3>
+                <p>
+                    Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on
+                    (+1) 96 716 6879
+                </p>
+                <article id="sm_icons">
+                    <iconify-icon icon="streamline:computer-logo-facebook-2-media-facebook-social" width="27" height="27"></iconify-icon>
+                    <iconify-icon icon="mdi:instagram" width="27" height="27"></iconify-icon>
+                    <iconify-icon icon="jam:pinterest" width="27" height="27"></iconify-icon>
+                </article>
+            </section>
+            <section id="newsletter">
+                <h3>newsletter</h3>
+                <input type="email" name="email" id="email_input" placeholder="email@example.com">
+                <button type="button">subscribe</button>
+            </section>
+        </div>
+        <p id="copyright">Copyright ©2023 All rights reserved</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
